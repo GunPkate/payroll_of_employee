@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS employee_service;
+
+CREATE TABLE IF NOT EXISTS t_employee (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    email VARCHAR(100) NOT NULL,
+    status VARCHAR(20) DEFAULT 'active'
+);
