@@ -1,4 +1,4 @@
-# payroll_of_labor
+# payroll_of_employee
 
 Payroll of Construction Labor
   - Employee from contruction site download payslip from app
